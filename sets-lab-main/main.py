@@ -1,6 +1,8 @@
 import cardinalidad
 import Interseccion
 import union
+import disjuntos
+import combinacion
 
 def get_number_of_sets():
     num_conjuntos = 0
@@ -57,10 +59,10 @@ def main():
             operations_menu()
         elif option == 2:
             cardinalidad.cardinalidadConjuntos()
-        elif option == 3:
-            subset_operation.perform_subset_operation()
+        # elif option == 3:
+        #     subset_operation.perform_subset_operation()
         elif option == 4:
-            disjoint_operation.perform_disjoint_operation()
+            disjuntos.disjuntos()
         elif option == 5:
             print("¡Hasta luego!")
         else:
@@ -82,12 +84,12 @@ def operations_menu():
             union.unionConjuntos()
         elif option == 2:
             Interseccion.interseccionConjuntos()
-        elif option == 3:
-            difference_operation.perform_difference_operation()
-        elif option == 4:
-            complement_operation.perform_complement_operation()
+        # elif option == 3:
+        #     difference_operation.perform_difference_operation()
+        # elif option == 4:
+        #     complement_operation.perform_complement_operation()
         elif option == 5:
-            combination_operation.perform_combination_operation()
+            combinacion.combinacionConjuntos()
         elif option == 6:
             print("Volviendo al menú principal...")
         else:
