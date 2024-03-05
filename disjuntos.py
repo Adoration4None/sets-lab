@@ -8,5 +8,6 @@ def disjuntos(conjuntos):
             for elemento in conjunto1:
                 if elemento in conjunto2:
                     return "Los conjuntos no son disjuntos"
-                else:
-                    return "Los conjuntos son disjuntos"
+
+            return "Los conjuntos son disjuntos"
+                    

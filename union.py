@@ -3,7 +3,7 @@ def unionConjuntos(sets):
     conjuntoUnion = set()
 
     # Iteramos sobre cada conjunto en el array
-    for conjunto in set:
+    for conjunto in sets:
         # Iteramos sobre cada elemento del conjunto actual
         for elemento in conjunto:
             # Verificamos si el elemento no está presente en el conjunto resultado
